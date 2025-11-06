@@ -1,0 +1,29 @@
+name: metronome_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  audioplayers: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/click_main.mp3
+    - assets/click_weak.mp3
+    - assets/1234.mp3
+    - assets/fourth_notes.png
+    - assets/eighth_notes.png
+    - assets/triplet.png
+    - assets/sixteens_notes.png
